@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.alko.mobile.MainActivity$PlaceholderFragment">
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/id_label"
+        android:text="@string/id_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff67eeff"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/content_label"
+        android:text="@string/content_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_label"
+        android:layout_alignParentLeft="true"
+        android:textColor="#ff67eeff"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/payrollId_label"
+        android:text="@string/payperiodId_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/content_label"
+        android:textColor="#ff67eeff"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/payperiodStartDate_label"
+        android:text="@string/payperiodStartDate_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/payrollId_label"
+        android:textColor="#ff67eeff"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/payperiodEndDate_label"
+        android:text="@string/payperiodEndDate_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/payperiodStartDate_label"
+        android:textColor="#ff67eeff"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/id_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/id_label"
+        android:layout_marginLeft="70dp"
+        android:textColor="#ff67eeff"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/content_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/content_label"
+        android:layout_alignLeft="@+id/id_value"
+        android:textColor="#ff67eeff"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/payrollId_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/payrollId_label"
+        android:layout_alignLeft="@+id/id_value"
+        android:textColor="#ff67eeff"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/payrollStartDate_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/payperiodStartDate_label"
+        android:layout_marginLeft="200dp"
+        android:textColor="#ff67eeff"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/payrollEndDate_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/payperiodEndDate_label"
+        android:layout_alignLeft="@+id/payrollStartDate_value"
+        android:textColor="#ff67eeff"
+        android:textSize="20sp" />
+    <ListView
+        android:id="@+id/prListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:fastScrollAlwaysVisible="true"
+        android:layout_below="@+id/payperiodEndDate_label" />
+
+</RelativeLayout>

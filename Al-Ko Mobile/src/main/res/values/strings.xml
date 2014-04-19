@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Al-Ko Mobile</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="id_label">Employee ID:</string>
+    <string name="content_label">Logged In As:</string>
+    <string name="payperiodId_label">Payroll ID:</string>
+    <string name="payperiodStartDate_label">Start Date</string>
+    <string name="payperiodEndDate_label">End Date</string>
+    <string name="id_value">[id]</string>
+    <string name="content_value">[content]</string>
+    <string name="payperiodId_value">[payrollId]</string>
+    <string name="payperiodStartDate_value">[payperiodStartDate]</string>
+    <string name="payperiodEndDate_value">[payperiodEndDate]</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="ppStart_label">Payperiod Start Date</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_acivity_main">Main Activity</string>
+    <string name="title_activity_login">Login Activity</string>
+    <string name="title_activity_days">Days Activity</string>
+    <string name="title_activity_single_day">Single Day Activity</string>
+
+</resources>

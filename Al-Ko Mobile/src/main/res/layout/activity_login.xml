@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alko.mobile.LoginActivity"
+    tools:ignore="MergeRootFrame">
+
+<TextView
+android:id="@+id/loginTextViewLabel"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Login:"
+android:layout_alignParentTop="true"
+android:layout_alignParentLeft="true"/>
+<EditText
+android:id="@+id/loginEditText"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_below="@+id/loginTextViewLabel"
+android:layout_alignParentLeft="true"/>
+<TextView
+android:id="@+id/passwordTextViewLabel"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Password"
+android:layout_below="@+id/loginEditText"
+android:layout_alignParentLeft="true" />
+<EditText
+android:id="@+id/passwordEditText"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:inputType="textPassword"
+android:ems="10"
+android:layout_below="@+id/passwordTextViewLabel"
+android:layout_alignParentLeft="true"
+android:layout_alignRight="@+id/editText" />
+<Button
+android:id="@+id/loginButton"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Sign In"
+android:layout_below="@+id/passwordEditText"
+android:layout_alignParentRight="true"/>
+
+<Button
+android:id="@+id/buttonLoadMain"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Load Main Activity"
+android:layout_below="@+id/loginButton"
+android:layout_alignParentRight="true"
+    android:visibility="visible" />
+
+</RelativeLayout>
